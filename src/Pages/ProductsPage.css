@@ -1,0 +1,14 @@
+.products-page {
+  padding-top: calc(var(--nav-height) + 3rem);
+  padding-bottom: var(--section-gap);
+  min-height: 100svh;
+}
+
+.products-page__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.products-page__header .section-subtitle {
+  margin-inline: auto;
+}

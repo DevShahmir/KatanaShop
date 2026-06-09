@@ -1,0 +1,49 @@
+.filter-bar__tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+  border: 1px solid var(--border-subtle);
+  background: var(--black-soft);
+  max-width: 560px;
+  margin-inline: auto;
+}
+
+.filter-bar__tab {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 0.75rem 1.5rem;
+  color: var(--text-muted);
+  border: 1px solid transparent;
+  transition: color 0.3s, background 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.filter-bar__tab:hover {
+  color: var(--text-bright);
+}
+
+.filter-bar__tab--active {
+  color: var(--text-bright);
+  background: var(--red-soft);
+  border-color: rgba(139, 0, 0, 0.4);
+  box-shadow: 0 0 20px var(--red-glow);
+}
+
+.filter-bar__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.filter-bar__empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-muted);
+  font-family: var(--font-heading);
+  letter-spacing: 0.15em;
+}
