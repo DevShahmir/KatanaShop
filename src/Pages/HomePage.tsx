@@ -5,6 +5,8 @@ import { Products } from "../Data/ProductDetail"
 import ProductCard from "./Product"
 import "./HomePage.css"
 
+import forgeImage from "../assets/katana_forge.png"
+
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -160,7 +162,7 @@ const HomePage = () => {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1599640848375-a7664ed447a3?w=800&q=80"
+              src={forgeImage}
               alt="Traditional Japanese swordsmith at work"
             />
             <div className="lore__visual-frame" />
