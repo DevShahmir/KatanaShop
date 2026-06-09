@@ -28,25 +28,30 @@
 
 .navbar__logo {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.1rem;
+  align-items: center;
+  gap: 0.6rem;
 }
 
-.navbar__kanji {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  color: var(--gold);
-  letter-spacing: 0.15em;
-  line-height: 1;
+.navbar__logo-icon {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.navbar__logo:hover .navbar__logo-icon {
+  transform: translateY(-2px);
 }
 
 .navbar__brand {
   font-family: var(--font-heading);
-  font-size: 0.65rem;
-  letter-spacing: 0.35em;
+  font-size: 0.72rem;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--text-muted);
+  transition: color 0.3s;
+}
+
+.navbar__logo:hover .navbar__brand {
+  color: var(--text-bright);
 }
 
 .navbar__links {

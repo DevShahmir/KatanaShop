@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
+import KatanaLogo from "./KatanaLogo"
 import "./Footer.css"
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="footer__brand-kanji">刀匠</div>
+            <KatanaLogo size={48} className="footer__logo-icon" />
             <div className="footer__brand-name">KatanaShop</div>
             <p className="footer__tagline">
               Master-forged blades from the Edo period tradition. Each katana carries

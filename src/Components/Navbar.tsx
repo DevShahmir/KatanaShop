@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 import { motion } from "framer-motion"
+import KatanaLogo from "./KatanaLogo"
 import "./Navbar.css"
 
 const navLinks = [
@@ -35,7 +36,7 @@ const Navbar = () => {
       >
         <div className="navbar__inner">
           <Link to="/" className="navbar__logo">
-            <span className="navbar__kanji">刀</span>
+            <KatanaLogo size={36} className="navbar__logo-icon" />
             <span className="navbar__brand">KatanaShop</span>
           </Link>
 

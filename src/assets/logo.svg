@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48">
+  <!-- KatanaShop Logo - Minimalist katana + wordmark -->
+  
+  <!-- Katana blade icon -->
+  <g transform="translate(8, 2)">
+    <!-- Blade -->
+    <path d="M12 0 L13.8 0.8 L14.5 30 L12 32 L9.5 30 L10.2 0.8 Z" fill="#f0f0f0" stroke="#1a1a1a" stroke-width="0.5"/>
+    <!-- Blade edge highlight -->
+    <path d="M12 1.5 L13.2 2 L13.8 29 L12 30.5 Z" fill="#ffffff" opacity="0.5"/>
+    <!-- Tsuba (guard) -->
+    <ellipse cx="12" cy="33" rx="6.5" ry="2.2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+    <ellipse cx="12" cy="33" rx="5.2" ry="1.5" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+    <!-- Red accent -->
+    <ellipse cx="12" cy="33" rx="4" ry="1" fill="none" stroke="#8b0000" stroke-width="0.7" opacity="0.9"/>
+    <!-- Handle -->
+    <rect x="10.8" y="35" width="2.4" height="7.5" rx="0.6" fill="#1a1a1a"/>
+    <!-- Handle wrapping -->
+    <line x1="11" y1="36.5" x2="13" y2="37.5" stroke="#2a2a2a" stroke-width="0.5"/>
+    <line x1="11" y1="38" x2="13" y2="39" stroke="#2a2a2a" stroke-width="0.5"/>
+    <line x1="11" y1="39.5" x2="13" y2="40.5" stroke="#2a2a2a" stroke-width="0.5"/>
+    <!-- Pommel -->
+    <rect x="10.5" y="42.2" width="3" height="1" rx="0.5" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="38" y="22" font-family="'Cinzel', 'Georgia', serif" font-weight="600" font-size="16" fill="#f0f0f0" letter-spacing="3">KATANA</text>
+  <text x="38" y="38" font-family="'Inter', 'Helvetica Neue', sans-serif" font-weight="300" font-size="10" fill="#888888" letter-spacing="5">SHOP</text>
+
+  <!-- Subtle red accent line between words -->
+  <line x1="38" y1="26" x2="68" y2="26" stroke="#8b0000" stroke-width="0.8" opacity="0.7"/>
+</svg>
